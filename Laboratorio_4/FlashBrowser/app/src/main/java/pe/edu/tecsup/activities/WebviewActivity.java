@@ -8,7 +8,7 @@ import android.webkit.WebViewClient;
 
 import pe.edu.tecsup.flashbrowser.R;
 
-public class WebviewActivity extends AppCompatActivity {
+public class    WebviewActivity extends AppCompatActivity {
     private WebView browser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
