@@ -15,7 +15,7 @@ import retrofit2.http.Part;
 import retrofit2.http.Path;
 
 public interface ApiService {
-    String API_BASE_URL = "http:/192.168.100.17:8080";
+    String API_BASE_URL = "http:/192.168.0.32:8080";
 
     @GET("/productos")
     Call<List<Producto>> getProductos();
